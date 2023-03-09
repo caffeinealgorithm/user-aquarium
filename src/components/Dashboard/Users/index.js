@@ -15,6 +15,7 @@ class Users extends Component<*, *> {
           <Grid.Column>
             <List store={store} />
           </Grid.Column>
+
           <Grid.Column>
             <Form store={store} />
           </Grid.Column>

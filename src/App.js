@@ -30,6 +30,7 @@ const App = () => (
       <Fragment>
         <Meta />
         <GlobalStyle />
+
         <Content>
           <Header as="h2" icon textAlign="center">
             <Icon name="id card outline" />
@@ -40,6 +41,7 @@ const App = () => (
               }
             </Header.Subheader>
           </Header>
+
           <Divider />
           <Dashboard />
         </Content>

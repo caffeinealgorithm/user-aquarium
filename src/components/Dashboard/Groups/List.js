@@ -57,6 +57,7 @@ class GroupList extends Component<*, *> {
           <Icon name="dropdown" />
           {group.name}
         </Accordion.Title>
+
         <Accordion.Content active={activeIndex === group.id - 1}>
           <Dropdown
             options={options}
@@ -70,6 +71,7 @@ class GroupList extends Component<*, *> {
             onChange={this.handleChange}
             renderLabel={renderLabel}
           />
+
           <Button
             style={{ marginTop: '10px' }}
             negative

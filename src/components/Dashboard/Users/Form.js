@@ -33,6 +33,7 @@ class GroupForm extends Component<*, *> {
             value={firstName}
             onChange={this.setFirstName}
           />
+
           <Form.Field
             control={Input}
             label="Last name"
@@ -41,6 +42,7 @@ class GroupForm extends Component<*, *> {
             onChange={this.setLastName}
           />
         </Form.Group>
+
         <Form.Field
           control={Select}
           options={store.groupAsOptions}
@@ -48,6 +50,7 @@ class GroupForm extends Component<*, *> {
           placeholder="Group"
           onChange={this.handleChange}
         />
+
         <Form.Field
           primary
           fluid

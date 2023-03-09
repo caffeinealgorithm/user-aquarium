@@ -56,6 +56,7 @@ class UserList extends Component<*, *> {
           <Icon name="dropdown" />
           {user.firstName} {user.lastName}
         </Accordion.Title>
+
         <Accordion.Content active={activeIndex === user.id - 1}>
           <Dropdown
             options={options}
@@ -69,6 +70,7 @@ class UserList extends Component<*, *> {
             onChange={this.handleChange}
             renderLabel={renderLabel}
           />
+
           <Button
             style={{ marginTop: '10px' }}
             negative

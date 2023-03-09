@@ -29,6 +29,7 @@ class GroupForm extends Component<*, *> {
           value={name}
           onChange={this.setName}
         />
+
         <Form.Field
           primary
           fluid
